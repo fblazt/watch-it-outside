@@ -7,7 +7,13 @@ html, body {
 body {
   background-color: #3E606F;
 }
+.navbar.scrolled {
+  background-color: #3E606F;
+  transition: background-color 100ms linear;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
 #jumbotron {
+  margin-top: 8rem;
   background-image: url('../img/yuiizaa-september-eTBcQVZ_aS4-unsplash.jpg');
   background-size: cover;
 }
