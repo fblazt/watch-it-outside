@@ -7,3 +7,7 @@ html, body {
 body {
   background-color: #3E606F;
 }
+#jumbotron {
+  background-image: url('../img/yuiizaa-september-eTBcQVZ_aS4-unsplash.jpg');
+  background-size: cover;
+}
