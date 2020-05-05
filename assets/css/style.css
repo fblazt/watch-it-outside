@@ -17,6 +17,22 @@ body {
   background-image: url('../img/yuiizaa-september-eTBcQVZ_aS4-unsplash.jpg');
   background-size: cover;
 }
+#news {
+  margin-top: 8rem;
+}
+#news .news-card {
+  background-color: #384A52;
+  box-shadow: 0 0px 0px 0 #000000, 0 0px 5px 0 #000000;
+}
+#news .news-pagination {
+  background-color: #384A52;
+  box-shadow: 0 0px 0px 0 #000000, 0 0px 5px 0 #000000;
+}
+#news .card-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover !important;
+}
 .footer-container {
   background-color: #314B57;
   box-shadow: 0 -5px 8px -5px #000000;
