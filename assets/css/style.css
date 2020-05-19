@@ -17,6 +17,9 @@ body {
   background-image: url('../img/yuiizaa-september-eTBcQVZ_aS4-unsplash.jpg');
   background-size: cover;
 }
+.partner-logo {
+  width: 250px;
+}
 #news {
   margin-top: 8rem;
 }
