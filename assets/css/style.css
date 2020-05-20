@@ -17,6 +17,9 @@ body {
   background-image: url('../img/yuiizaa-september-eTBcQVZ_aS4-unsplash.jpg');
   background-size: cover;
 }
+.modal-content {
+  background-color: #314B57;  
+}
 .partner-logo {
   width: 250px;
 }
