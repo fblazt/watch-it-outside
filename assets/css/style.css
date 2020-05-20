@@ -52,3 +52,10 @@ body {
 .footer-container .footer-icon:hover {
   color: darkorange !important;
 }
+
+@media only screen and (max-width: 992px) {
+  .navbar-mobile {
+    box-shadow: 0px 0px 8px 2px #000000;
+    background-color: #314B57;
+  } 
+}
