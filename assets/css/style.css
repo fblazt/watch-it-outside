@@ -7,6 +7,9 @@ html, body {
 body {
   background-color: #3E606F;
 }
+.cursor-pointer:hover {
+  cursor: pointer;
+}
 .navbar.scrolled {
   background-color: #314B57;
   transition: background-color 100ms linear;
@@ -46,7 +49,6 @@ body {
   background-color: #314B57;
   box-shadow: 0 -5px 8px -5px #000000;
 }
-
 .footer-container .footer-icon:hover {
   color: darkorange !important;
 }
