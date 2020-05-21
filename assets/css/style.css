@@ -9,6 +9,7 @@ body {
 }
 .cursor-pointer:hover {
   cursor: pointer;
+  color: orange;
 }
 .navbar.scrolled {
   background-color: #314B57;
