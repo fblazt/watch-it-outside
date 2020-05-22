@@ -21,6 +21,9 @@ body {
   background-image: url('../img/yuiizaa-september-eTBcQVZ_aS4-unsplash.jpg');
   background-size: cover;
 }
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+}
 .modal-content {
   background-color: #314B57;  
 }
