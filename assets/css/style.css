@@ -27,21 +27,37 @@ body {
 .partner-logo {
   width: 250px;
 }
-#news {
+.navbar-margin {
   margin-top: 8rem;
 }
-#news .news-card {
+.navbar-margin .news-card {
   background-color: #384A52;
   box-shadow: 0 0px 0px 0 #000000, 0 0px 5px 0 #000000;
 }
-#news .news-pagination {
+.navbar-margin .news-pagination {
   background-color: #384A52;
   box-shadow: 0 0px 0px 0 #000000, 0 0px 5px 0 #000000;
 }
-#news .card-img {
+.navbar-margin .card-img {
   height: 100%;
   width: 100%;
-  background-size: cover !important;
+  background-size: cover;
+  border: none;
+}
+.navbar-margin .card-gallery {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.card-gallery img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.card-gallery:hover img {
+  box-shadow: 0 0px 0px 0 #000000, 0 0px 5px 0 #000000;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.03);
 }
 .card-register {
   height: 100% !important;
