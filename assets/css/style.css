@@ -51,6 +51,9 @@ body {
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
+.card-body {
+  height: 100%;
+}
 .card-gallery img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
